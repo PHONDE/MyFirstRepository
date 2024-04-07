@@ -23,7 +23,7 @@ header {
     margin-left: 20px;
     transition: all .5s;
     text-decoration: none;
-    color: black;
+    color: red;
 }
 
 .logo:hover {
