@@ -70,3 +70,11 @@ header {
     text-shadow: 1px 1px 1px green;
     margin-left: 650px;
 }
+
+.hello_algaritm {
+    color: red;
+    font-size: 22px;
+    margin-top: 600px;
+    position: absolute;
+    margin-left: 630px;
+}
