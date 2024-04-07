@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <a class="logo" href="#">Site</a>
+            <div class="menu__a">
+                <a href="maga.html" class="menu__sell">Каталог</a>
+                <a href="https://t.me/UcPHONDOTZIVI" class="menu__sell">Отзывы</a>
+                <a href="FAQ.html" class="menu__sell">FAQ</a>
+                <a href="kontakt.html" class="menu__sell">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <h1 class="hello">Hello World</h1>
+</body>
+</html>
+
+--------------------------------------------------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0%;
+}
+
+header {
+
+}
+
+.menu {
+    display: flex;
+    position: fixed;
+    box-shadow: 0px 0.2px 5px black;
+    width: 100%;
+    padding-bottom: 15px;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 32px;
+    margin-top: 15px;
+    margin-left: 20px;
+    transition: all .5s;
+    text-decoration: none;
+    color: black;
+}
+
+.logo:hover {
+    cursor: pointer;
+    color: rgb(0, 230, 0);
+}
+
+.menu__a {
+    display: flex;
+    position: relative;
+    gap: 50px;
+    margin-left: 950px;
+}
+
+.menu__sell {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all .5s;
+    font-size: 18px;
+    margin-top: 30px;
+    color: black;
+}
+
+.menu__sell:hover {
+    color: rgb(0, 230, 0);
+}
+
+.game {
+    background-color: black;
+    display: flex;
+    position: relative;
+}
+
+.game_div {
+    background-color: rgb(51, 51, 51);
+    top: 500px;
+}
+
+.hello {
+    position: absolute;
+    display: flex;
+    margin-top: 500px;
+    color: green;
+    text-shadow: 1px 1px 1px green;
+    margin-left: 650px;
+}
